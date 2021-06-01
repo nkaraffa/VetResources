@@ -1,0 +1,56 @@
+﻿@model IEnumerable<VetResource.Models.ResCont>
+@{
+    ViewData["Title"] = "Resources";
+}
+
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p>Use this area to provide additional information.</p>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Resources</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row grid-header glyphicon-align-center">
+            <div class="col-md-2">
+                Resource Name
+            </div>
+            <div class="col-md-2">
+                Website URL
+            </div>
+            <div class="col-md-2">
+                Contact Info
+            </div>
+            <div class="col-md-2">
+                Address
+            </div>
+
+            <div class="row glyphicon-align-center">
+                @foreach (var item in Model)
+                {
+                    <div class="col-md-2">
+                        @Html.DisplayFor(model => item.ResourceName)
+                    </div>
+                    <div class="col-md-2">
+                        @Html.DisplayFor(model => item.WebsiteUrl)
+                    </div>
+                    <div class="col-md-2">
+                        @Html.DisplayFor(model => item.ContactInfo)
+                    </div>
+                    <div class="col-md-2">
+                        @Html.DisplayFor(model => item.Address)
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

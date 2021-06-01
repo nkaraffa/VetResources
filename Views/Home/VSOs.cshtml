@@ -1,0 +1,44 @@
+﻿@model IEnumerable<VetResource.Models.Vsocont>
+@{
+    ViewData["Title"] = "VSOs";
+}
+
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p>Use this area to provide additional information.</p>
+
+<div class="container">
+    <div class="row grid-header glyphicon-align-center">
+        <div class="col-md-2">
+            Resource Name
+        </div>
+        <div class="col-md-2">
+            Website URL
+        </div>
+        <div class="col-md-2">
+            Contact Info
+        </div>
+        <div class="col-md-2">
+            Address
+        </div>
+
+        <div class="row glyphicon-align-center">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-2">
+                    @Html.DisplayFor(model => item.VsoName)
+                </div>
+                <div class="col-md-2">
+                    @Html.DisplayFor(model => item.VsoWebsite)
+                </div>
+                <div class="col-md-2">
+                    @Html.DisplayFor(model => item.VsoContact)
+                </div>
+                <div class="col-md-2">
+                    @Html.DisplayFor(model => item.VsoAddress)
+                </div>
+            }
+        </div>
+    </div>
+</div>
