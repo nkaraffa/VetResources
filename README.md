@@ -9,7 +9,8 @@ ___________________
 ___________________
 ## Versions
 
-	  - v1:  Basic website layout,  
+	  - v1:  Basic website layout, DB Filled & Link, Models Created, Views Created, Controllers Created, DB Forwarding logic
+	  - v2:  "IN-PROGRESS"
 
 ____________________
 ## Project Proposal
