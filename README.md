@@ -21,7 +21,10 @@ ____________________
 			○ Resource ID, Resource Name, Website, Contact Info, Address
 		• User Feedback
 
-	Brief Description: The interactive veterans resource website will have tabs for specific resources. The resource tabs will cover general uses and contact information for 		             the listed veterans resources. I will include a feedback page that will enable users to provide feedback on the website as well!
+	Brief Description: 
+		The interactive veterans resource website will have tabs for specific resources. 
+		The resource tabs will cover general uses and contact information for the listed veterans resources. 
+		I will include a feedback page that will enable users to provide feedback on the website as well!
 
 	Proposed Workflow: 
 		1. DB first…tables(models)
