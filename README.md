@@ -9,7 +9,8 @@ ___________________
 ___________________
 ## Versions
 
-	  - v1:  Basic website layout, DB Filled & Linked, Models Created, Views Created, Controllers Created, DB Forwarding logic, 2/3 Views linked to Models
+	  - v1:  Basic website layout, DB Filled & Linked, Models Created, Views Created, Controllers Created, 
+	  	 DB Forwarding logic, 2/3 Views linked to Models
 
 ____________________
 ## Project Proposal
