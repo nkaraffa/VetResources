@@ -1,0 +1,74 @@
+﻿@model IEnumerable<VetResource.Models.ResCont>
+@{
+    ViewData["Title"] = "Resources";
+}
+
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p>Commonly used Veterans Resources</p>
+
+<br />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Resource Name
+            </th>
+            <th>
+                Website URL
+            </th>
+            <th>
+                Contact Info
+            </th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => item.ResourceName)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.WebsiteUrl)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.ContactInfo)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.Address)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+<br />
+
+<h3>Resource Highlights</h3>
+<p>Excellent Resources </p>
+<div class="row">
+    <div class="text-center">
+        <img src='@Url.Content("~/images/Sitrep.png")' width="300" height="300" />
+        <br />
+        <a href="https://www.sitreps2steercos.com/">sitreps2steercos.com</a>
+        <br />
+        <div>Self proclaimed "BEST FREE MILITARY TRANSITION PERSPECTIVE AVAILABLE." </div>
+        <div>This site provides advice and perspective on popular post-military careers.</div>
+    </div>
+    <br />
+    <div class="text-center">
+        <img src='@Url.Content("~/images/Veterati.png")' width="250" height="250" />
+        <br />
+        <a href="https://www.veterati.com/">Veterati.com</a>
+        <br />
+        <div>Veterati is a free networking and mentoring site for veterans.</div>
+        <div>Veterati provides a forum for veterans to network and prepare for transtion or just talk.</div>
+    </div>
+</div>
+
+

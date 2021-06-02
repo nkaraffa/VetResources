@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p>Welcome to our site.</p>
+
+<br />
+<br />
+
+<div class="body-content">
+    This site was developed to help veterans get access to the benefits and resources
+    that are available to them after service.
+
+    The military transition process can be daunting, but we are here to help!
+</div>
+
+<br />
+<br />
+
+<div class="body-content">
+    Through this website we will discuss and share with you information of the following resources:
+    <ul>
+        <li>Veteran Resources:  Commonly used, or asked about veteran resources.</li>
+        <li>VSOs: Veteran Service Organizations (VSOs) that can help, or advocate, for you.</li>
+        <li>Contact Us:  Reach out and let us know what you would like added to the site!</li>
+        <li><a href='@Url.Action("Contact", "Home")'>Send us your Feedback</a></li>
+    </ul>
+</div>

@@ -1,0 +1,70 @@
+﻿@model IEnumerable<VetResource.Models.Vsocont>
+@{
+    ViewData["Title"] = "VSOs";
+}
+
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p>Veteran Service Organziations can advocate for you before or after your career transition.</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Resource Name
+            </th>
+            <th>
+                Website URL
+            </th>
+            <th>
+                Contact Info
+            </th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => item.VsoName)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.VsoWebsite)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.VsoContact)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.VsoAddress)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+<br />
+
+<h3>VSO Highlights</h3>
+
+<div class="row">
+    <div class="text-center">
+        <img src='@Url.Content("~/images/DAV.jpg")' width="250" height="250" />
+        <br />
+        <a href="www.dav.org">DAV.org</a>
+        <br />
+        <div>Disabled American Veterans (DAV) has been helping veterans navigate the VA for over 100 years.</div>
+        <div>DAV can help you get the care and assistance you need!</div>
+    </div>
+    <br />
+    <div class="text-center">
+        <img src='@Url.Content("~/images/VFW.jpg")' width="250" height="250" />
+        <br />
+        <a href="www.vfw.org">VFW.org</a>
+        <br />
+        <div>Veterans of Foregin Wars (VFW) is a organization helping veterans in multiple domains.</div>
+        <div>The VFW can help you navigate the VA claims process, combat veteran hunger, and much more!</div>
+    </div>
+</div>
