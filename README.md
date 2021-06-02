@@ -11,7 +11,9 @@ ___________________
 
 	  - v1:  Basic website layout, DB Filled & Linked, Models Created, Views Created, Controllers Created, 
 	  	 DB Forwarding logic, 2/3 Views linked to Models, Images loaded
-	  - v2:  "IN-PROGRESS"
+	  - v2:  Created a User feedback controller, created User feedback menu, linked User Feedback to DB, 
+	  	 Created post-feedback submission view, content added, UI beautification
+	  - v3:  "IN-PROGRESS"
 
 ____________________
 ## Project Proposal
