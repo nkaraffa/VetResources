@@ -15,7 +15,7 @@ ___________________
 	  	 Created post-feedback submission view, content added, UI beautification
 	  - v3:  Content Added, UI beautification, added functional URLs to resources
 	  
-	  - Website Functional (v3) and ready for use
+	  	- Website Functional (v3) and ready for use
 	  
 	  - v4:  "Planned: "
 	  
