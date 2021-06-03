@@ -14,7 +14,10 @@ ___________________
 	  - v2:  Created a User feedback controller, created User feedback menu, linked User Feedback to DB, 
 	  	 Created post-feedback submission view, content added, UI beautification
 	  - v3:  Content Added, UI beautification, added functional URLs to resources
-	  - v4:  "IN-PROGRESS"
+	  
+	  - Website Functional (v3) and ready for use
+	  
+	  - v4:  "Planned: "
 	  
 
 ____________________
