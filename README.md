@@ -46,7 +46,7 @@ ____________________
 		8. Styling (bootstrap)
 
 		Enhancements:
-			1. Login
+			1. Login (Admin Access)
 			2. State Management
 			3. Web APIs
 
