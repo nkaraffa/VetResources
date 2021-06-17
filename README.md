@@ -17,7 +17,9 @@ ___________________
 	  
 	  	- Website Functional (v3) and ready for use
 	  
-	  - v4:  "PLANNED: Add Login features, admin access will allow admin to modify resource info from the webpage, admin can view all feedback"
+	  - v4:  Content added, UI beautification, Added new views
+	  - v5:  "PLANNED: Add search feature for data"
+	  	 "PLANNED: Add Login features, admin access will allow admin to modify resource info from the webpage, admin can view all feedback"
 	  
 
 ____________________
